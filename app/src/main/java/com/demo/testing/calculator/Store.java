@@ -37,4 +37,16 @@ public class Store {
     public void setVipDiscountPercentage(double vipDiscountPercentage) {
         this.vipDiscountPercentage = vipDiscountPercentage;
     }
+
+    //todo : one-liner
+    public boolean hasAsVipUser(User user) {
+        boolean isVipUser = false;
+        for (Integer vipId : getVips()) {
+            if (vipId == user.getUserId()) {
+                isVipUser = true;
+                break;
+            }
+        }
+        return isVipUser;
+    }
 }

@@ -13,6 +13,8 @@ import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
+import androidx.annotation.Nullable;
+
 interface PasswordEncoder {
     String encode(String plainText, String scheme);
     String encode(String plainText);
@@ -32,7 +34,7 @@ public class ArgumentMatchers {
     public void testArgMatchers1() {
         // Arrange (Given)
         // What's wrong?
-        when(passwordEncoder.encode(anyString(), "RSA")).thenReturn("DEF");
+        when(passwordEncoder.encode(anyString(), eq("RSA"))).thenReturn("DEF");
 
         // Act (When)
         String result = passwordEncoder.encode("abc", "RSA");
@@ -44,14 +46,19 @@ public class ArgumentMatchers {
     @Test
     public void testArgMatchers2() {
         // Arrange (Given)
-        when(passwordEncoder.encode(or(eq("a"), endsWith("b")))).thenReturn("ZZZ");
+        when(passwordEncoder.encode(orMatcher())).thenReturn("ZZZ");
 
         // Act (When)
         String result = passwordEncoder.encode("dumb");
 
         // Assert (Then)
-        verify(passwordEncoder).encode(or(eq("a"), endsWith("b")));
+        verify(passwordEncoder).encode(orMatcher());
         assertEquals("ZZZ", result);
+    }
+
+    @Nullable
+    private String orMatcher() {
+        return or(eq("a"), endsWith("b"));
     }
 
 }

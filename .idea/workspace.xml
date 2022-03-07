@@ -10,8 +10,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c15f8af1-3ac7-4000-8ace-8b1af50a521d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/demo/testing/calculator/PriceCalculator2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/demo/testing/calculator/PriceCalculatorMockitoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/demo/testing/calculator/PriceCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/demo/testing/matchers/IsDivisibleBy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/app/testing-basics-demo.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/testing-basics-demo.app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/demo/testing/calculator/PriceCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/demo/testing/calculator/PriceCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/demo/testing/calculator/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/demo/testing/calculator/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/demo/testing/matchers/CustomMatchersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/demo/testing/matchers/CustomMatchersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/demo/testing/mockito/ActionHandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/demo/testing/mockito/ActionHandlerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/demo/testing/mockito/ArgumentMatchers.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/demo/testing/mockito/ArgumentMatchers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/demo/testing/mockito/SpyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/demo/testing/mockito/SpyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/demo/testing/rules/TestRuleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/demo/testing/rules/TestRuleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +41,24 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -33,6 +66,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="25E5czDj1MGKrGOIMeu9ahmfwSu" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -41,8 +77,23 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="cidr.known.project.marker" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../IngrediSearch-adv-demo" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
-  <component name="RunManager" selected="Gradle.CustomMatchersTest.givenAString_whenIsOnlyDigits_thenCorrect">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.demo.testing.calculator" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.demo.testing.calculator" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.ActionHandlerTest.getValue_should_return_valid_string_if_doRequest_succeed_V3">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="testing-basics-demo.app" />
       <option name="DEPLOY" value="true" />
@@ -61,6 +112,8 @@
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
       <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
       <option name="DEBUGGER_TYPE" value="Auto" />
       <Auto>
         <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
@@ -100,12 +153,96 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomMatchersTest.givenAString_whenIsOnlyDigits_thenCorrect" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ActionHandlerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.demo.testing.matchers.CustomMatchersTest.givenAString_whenIsOnlyDigits_thenCorrect&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.demo.testing.mockito.ActionHandlerTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:testDebugUnitTest" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ActionHandlerTest.getValue_should_return_valid_string_if_doRequest_failed" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.demo.testing.mockito.ActionHandlerTest.getValue_should_return_valid_string_if_doRequest_failed&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:testDebugUnitTest" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ActionHandlerTest.getValue_should_return_valid_string_if_doRequest_succeed" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.demo.testing.mockito.ActionHandlerTest.getValue_should_return_valid_string_if_doRequest_succeed&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:testDebugUnitTest" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ActionHandlerTest.getValue_should_return_valid_string_if_doRequest_succeed_V2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.demo.testing.mockito.ActionHandlerTest.getValue_should_return_valid_string_if_doRequest_succeed_V2&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:testDebugUnitTest" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ActionHandlerTest.getValue_should_return_valid_string_if_doRequest_succeed_V3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.demo.testing.mockito.ActionHandlerTest.getValue_should_return_valid_string_if_doRequest_succeed_V3&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -123,7 +260,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CustomMatchersTest.givenAString_whenIsOnlyDigits_thenCorrect" />
+        <item itemvalue="Gradle.ActionHandlerTest.getValue_should_return_valid_string_if_doRequest_succeed_V3" />
+        <item itemvalue="Gradle.ActionHandlerTest" />
+        <item itemvalue="Gradle.ActionHandlerTest.getValue_should_return_valid_string_if_doRequest_succeed_V2" />
+        <item itemvalue="Gradle.ActionHandlerTest.getValue_should_return_valid_string_if_doRequest_failed" />
+        <item itemvalue="Gradle.ActionHandlerTest.getValue_should_return_valid_string_if_doRequest_succeed" />
       </list>
     </recent_temporary>
   </component>
@@ -137,5 +278,17 @@
       <updated>1645079489988</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

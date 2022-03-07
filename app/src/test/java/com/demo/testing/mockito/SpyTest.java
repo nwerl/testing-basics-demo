@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.Assert.assertEquals;
+import static org.mockito.Mockito.doReturn;
 import static org.mockito.Mockito.spy;
 import static org.mockito.Mockito.when;
 
@@ -51,7 +52,9 @@ public class SpyTest {
         List<String> listSpy = spy(list);
 
         // Act (When) -- be careful!
-        when(listSpy.get(0)).thenReturn("second-element");
+        doReturn("second-element").when(listSpy).get(0);
+        // listSpy.get(0) 하는 과정에서 stubbing되지 않은 get()가 불려버려서 런타임 에러.
+        // when(listSpy.get(0)).thenReturn("second-element");
 
         // Assert (Then)
         assertEquals("second-element", listSpy.get(0));
